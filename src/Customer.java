@@ -3,7 +3,7 @@ import java.util.*;
 
 class Customer {
 	private String name;
-	private Vector<Rental> rentals = new Vector<Rental>();
+	private Vector<Rental> rentals = new Vector<>();
 
 	public Customer(String newname) {
 		name = newname;
