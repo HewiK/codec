@@ -8,6 +8,7 @@ class Customer {
 	public Customer(String newname) {
 		name = newname;
 	};
+	
 	public void addRental(Rental arg) {
 		rentals.addElement(arg);
 	};
