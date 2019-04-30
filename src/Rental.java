@@ -10,6 +10,7 @@ class Rental {
 	public int getDaysRented() {
 		return daysRented;
 	}
+	
 	public Movie getMovie() {
 		return movie;
 	}
